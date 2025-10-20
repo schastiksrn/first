@@ -1,0 +1,88 @@
+.page2{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(https://eskipaper.com/images/forest-12.jpg);
+    background-size: 100%;
+    background-position: center;
+    box-sizing: border-box;
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'arial', cursive;
+    background-color: rgb(31, 54, 33);
+    padding:  10 px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header a{
+    font-family:'Courier New', Courier, monospace;
+    padding-left: 20px;
+    padding-bottom: 5px;  
+    display: inline-block;
+    gap: 20px;
+    text-align: center;
+    transition: 0.4s;
+    text-decoration: none;
+    color: white
+
+}
+
+.cta:hover{
+    transform: scale(1.05);
+    background: rgb(229, 234, 193);
+}
+
+.header img{
+    width: 90px;
+    margin-left: 30px;
+    padding-right: 20px;
+}
+
+.welcom{
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, o.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', cursive;
+}
+
+.welcom a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial', cursive;
+}
+
+
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'arial', cursive;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+
+}    
